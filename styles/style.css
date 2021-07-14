@@ -1,0 +1,194 @@
+/* header */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.header-container {
+  background-color: #2d25a0;
+}
+.header-logo-player {
+  display: flex;
+  justify-content: space-evenly;
+}
+.site-name {
+  width: 485px;
+  height: 235px;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 80px;
+  color: #ffffff;
+  margin-top: 135px;
+  margin-bottom: 15px;
+}
+.site-info {
+  margin-bottom: 220px;
+}
+.site-player img {
+  width: 555px;
+  height: 447px;
+  margin-top: 68px;
+  margin-bottom: 75px;
+}
+/* button */
+.button-watch {
+  border: 0px solid;
+  background-color: #e02c6d;
+  width: 162px;
+  height: 45px;
+  padding: 5px 10px;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px 24px 10px 24px;
+}
+/* mainsection */
+
+.player-list {
+  margin-top: 70px;
+}
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 30px;
+}
+.player-informations {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 474px;
+  align-items: center;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-pic img {
+  padding: 15px;
+  margin: 0px;
+  width: 300px;
+  height: 256px;
+}
+.player-tittle {
+  height: 154px;
+  width: 300px;
+}
+.player-tittle h2 {
+  font-weight: 800;
+  margin: 0px;
+}
+.player-tittle p {
+  margin: 0px;
+}
+
+/* highlights section */
+
+.highlights {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 66px;
+}
+.highlishts-info {
+  width: 469px;
+  height: 309px;
+  margin-top: 224px;
+}
+.highlishts-info h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 60px;
+  margin: 0px;
+}
+.highlights-pic img {
+  width: 567px;
+  height: 427px;
+  margin-top: 165px;
+}
+
+/* footer part */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 158px;
+}
+.football img {
+  width: 483.87px;
+  height: 110px;
+  margin-bottom: 0px;
+}
+.social-icons {
+  /* display: flex;
+  justify-content: center;
+  gap: 14px; */
+}
+#icon {
+  height: 32px;
+  width: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.copyright p {
+  margin-top: 0px;
+}
+
+/* mediaquery */
+
+@media all and (max-width: 680px) {
+  .header-container {
+    width: 100%;
+    background-color: #2d25a0;
+  }
+  .header-logo-player {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .site-name {
+    width: 278px;
+    height: 138px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #ffffff;
+    margin-top: 112px;
+    margin-bottom: 15px;
+  }
+  .site-info {
+    margin-bottom: 100px;
+  }
+  .site-player img {
+    width: 329px;
+    height: 259.17px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  /* playersection */
+  .player-list {
+    margin-top: 47px;
+  }
+  .first-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+  }
+  /* highlitesection */
+  .highlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .highlights-pic img {
+    width: 328px;
+    height: 248px;
+    margin-top: 29px;
+  }
+  .footer {
+    margin-top: 60px;
+  }
+}
