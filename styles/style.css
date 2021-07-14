@@ -106,12 +106,29 @@ a {
   line-height: 60px;
   margin: 0px;
 }
-.highlights-pic img {
+.highlights-pic {
   width: 567px;
   height: 427px;
   margin-top: 165px;
+  position: relative;
 }
-
+.highlights-pic img {
+  width: 100%;
+  height: 100%;
+}
+.transition-image {
+  position: absolute;
+  top: 0px;
+  left: 55px;
+  opacity: 0;
+}
+.highlights-pic:hover .vanish {
+  visibility: hidden;
+}
+.transition-image:hover {
+  opacity: 1;
+  transition: 2s;
+}
 /* footer part */
 
 .footer {
